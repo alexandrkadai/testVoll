@@ -17,7 +17,7 @@ export default function FormComponent() {
         />
       </a>
 
-      <div className="flex flex-col px-[89px] pb-[71px] pt-[75px]">
+      <div className="flex flex-col  mx-[89px] mb-[71px] mt-[75px]">
         <div className="flex flex-col items-start">
           <h1 className="text-[25px] fuhd:text-[36.3px]">
             Create an account <b className="text-[#E80004]">.</b>
@@ -31,7 +31,7 @@ export default function FormComponent() {
         </div>
 
         <form className="mt-[44px] fuhd:mt-[76.42px]">
-          <div className="relative flex flex-col">
+          <div className="relative flex flex-col  w-[431px]  fuhd:w-[606px]">
             <label
               htmlFor="userid"
               className="absolute -top-[5px] left-[15.63px] flex items-center justify-center bg-[#1F1818] px-[6px] text-[8.8px] fuhd:px-[12px] fuhd:text-[12px]"
@@ -50,7 +50,7 @@ export default function FormComponent() {
             />
           </div>
 
-          <div className="relative mt-[23.78px] flex flex-col">
+          <div className="relative mt-[23.78px] flex flex-col  w-[431px]  fuhd:w-[606px]">
             <label
               htmlFor="userid"
               className="absolute -top-[5px] left-[15.63px] flex items-center justify-center bg-[#1F1818] px-[6px] text-[8.8px] fuhd:px-[12px] fuhd:text-[12px]"
@@ -68,7 +68,7 @@ export default function FormComponent() {
               alt="icon user input"
             />
           </div>
-          <div className="relative mt-[23.78px] flex flex-col">
+          <div className="relative mt-[23.78px] flex flex-col  w-[431px] fuhd:w-[606px]">
             <label
               htmlFor="userid"
               className="absolute -top-[5px] left-[15.63px] flex items-center justify-center bg-[#1F1818] px-[6px] text-[8.8px] fuhd:px-[12px] fuhd:text-[12px]"
@@ -92,7 +92,7 @@ export default function FormComponent() {
               8 characters minimun
             </p>
           </div>
-          <div className="relative mt-[23.78px] flex flex-col">
+          <div className="relative mt-[23.78px] flex flex-col w-[431px]  fuhd:w-[606px]">
             <label
               htmlFor="userid"
               className="absolute -top-[5px] left-[15.63px] flex items-center justify-center bg-[#1F1818] px-[6px] text-[8.8px] fuhd:px-[12px] fuhd:text-[12px]"
@@ -119,7 +119,7 @@ export default function FormComponent() {
               Resend (60s)
             </p>
           </div>
-          <div className="relative mt-[23.78px] flex flex-col">
+          <div className="relative mt-[23.78px] flex flex-col  w-[431px] fuhd:h-[46px] fuhd:w-[606px]">
             <label
               htmlFor="userid"
               className="absolute -top-[5px] left-[15.63px] flex items-center justify-center bg-[#1F1818] px-[6px] text-[8.8px] fuhd:px-[12px] fuhd:text-[12px]"
@@ -138,7 +138,7 @@ export default function FormComponent() {
             />
           </div>
 
-          <div className="mt-[14px] flex items-center justify-start gap-1 fuhd:mt-[20px]">
+          <div className="mt-[14px] flex items-center justify-start gap-1 fuhd:mt-[20px]  w-[431px] fuhd:h-[46px] fuhd:w-[606px]">
             <input
               className="rounded-none accent-[#7E6969]"
               type="checkbox"
@@ -192,7 +192,7 @@ export default function FormComponent() {
             Create Account
           </button>
         </form>
-        <div className="mt-[40px] flex flex-row items-center justify-center gap-[126px] fuhd:mt-[57px] fuhd:gap-[177px]">
+        <div className="mt-[40px] w-[438px] fuhd:w-[616px] flex flex-row items-center justify-center gap-[126px] fuhd:mt-[57px] fuhd:gap-[177px]">
           <div className="flex flex-row items-center justify-center gap-[13px] fuhd:gap-[19px]">
             <img
               src={headphones}
